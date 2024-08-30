@@ -55,7 +55,7 @@ const Header = () => {
                     </ul>
                 </div>
                 {/* icon  or login section */}
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 md:gap-4">
                     <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2">
                         <CiSearch/>
                     </button>
