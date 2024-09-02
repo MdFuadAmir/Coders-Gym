@@ -1,6 +1,7 @@
 import TackCare from "../../TackCare/TackCare";
 import Hero from "../Hero/Hero";
 import Offer from "../Offer/Offer";
+import TabCamp from "../Tab/TabCamp";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero/>
             <Offer/>
             <TackCare/>
+            <TabCamp/>
 
         </div>
     );
