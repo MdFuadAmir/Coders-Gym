@@ -51,7 +51,7 @@ const allData = [
 const TabCamp = () => {
     return (
         <div className="max-w-6xl mx-auto px-4 py-12">
-            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
                     allData.map((data)=>(<div key={data.id} className="p-4 border rounded-lg space-y-4">
                         <img src={data.img} alt="" />
@@ -59,7 +59,7 @@ const TabCamp = () => {
                         <p className="text-gray-500">{data.category}</p>
                     </div>))
                 }
-            </div> */}
+            </div>
         </div>
     );
 };
