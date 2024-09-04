@@ -11,7 +11,6 @@ const Home = () => {
             <Offer/>
             <TackCare/>
             <TabCamp/>
-
         </div>
     );
 };
