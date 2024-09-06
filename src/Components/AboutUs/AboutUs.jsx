@@ -52,8 +52,6 @@ const AboutUs = () => {
                         <div className="py-6">
                             <p>{data.description}</p>
                         </div>
-                        
-
                     </div>))
                 }
                 

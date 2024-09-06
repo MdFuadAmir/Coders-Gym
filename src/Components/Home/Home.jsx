@@ -1,5 +1,6 @@
 import TackCare from "../../TackCare/TackCare";
 import AboutUs from "../AboutUs/AboutUs";
+import Discount from "../Discount/Discount";
 import Hero from "../Hero/Hero";
 import Offer from "../Offer/Offer";
 import TabCamp from "../Tab/TabCamp";
@@ -12,6 +13,7 @@ const Home = () => {
             <TackCare/>
             <TabCamp/>
             <AboutUs/>
+            <Discount/>
         </div>
     );
 };
