@@ -9,7 +9,7 @@ const navberMenu =[
     {
         id:1,
         name:"Home",
-        path:"/home"
+        path:"/"
     },
     {
         id:2,
