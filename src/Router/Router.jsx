@@ -7,15 +7,17 @@ import Blog from "../Components/Blog/Blog";
 import Pricing from "../Components/Pricing/Pricing";
 import TrainerDetails from "../Components/TrainerDetails/TrainerDetails";
 import BlogDetails from "../Components/BlogDetails/BlogDetails";
+import ErroePage from "../Components/ErrorPage/ErroePage";
 
 const router = createBrowserRouter([
     {
         path:"/",
         element:<Root/>,
+        errorElement: <ErroePage/>,
         children:[
             {
                 path:"/",
-                element:<Home/>
+                element:<Home/>,
             },
             {
                 path:"/trainer",

@@ -3,6 +3,7 @@ import BlogDet from "./BlogDet";
 
 const Blog = () => {
     const blogs = useLoaderData();
+    
     return (
         <div className="max-w-6xl mx-auto p-4">
             <h1 className="text-3xl font-bold font-serif text-center">All Blogs</h1>
